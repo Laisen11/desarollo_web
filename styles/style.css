@@ -1,0 +1,56 @@
+header {
+    background-image: linear-gradient(skyblue, orange, yellow);
+}
+
+header img {
+    margin: auto;
+    padding: 50px;
+    width: 200px;
+}
+
+div {
+    margin: auto;
+    text-align: center;
+    padding: auto;
+}
+
+header h1, header h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav{
+    background-color: skyblue;
+    text-align: center;
+}
+header nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 12px;
+}
+
+nav a{
+    color: black;
+    padding: 20px;
+}
+
+nav a:hover{
+    color: blue;
+    
+}
+
+article h1{
+    text-align: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+body nav li{
+display: flexbox;
+margin: 20px;
+}
