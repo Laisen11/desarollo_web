@@ -1,0 +1,84 @@
+header {
+    background-image: linear-gradient(skyblue, orange, yellow);
+}
+
+header img {
+    margin: auto;
+    padding: 50px;
+    width: 200px;
+}
+
+div {
+    margin: auto;
+    text-align: center;
+    padding: auto;
+}
+
+header h1, header h2 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+    background-color: skyblue;
+    text-align: center;
+}
+
+header nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 12px;
+}
+
+nav a {
+    color: black;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+fieldset {
+    margin: 20px;
+}
+
+legend {
+    background-color: skyblue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: green;
+    border: 2px solid yellow;
+}
+
+input[type=reset] {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: red;
+    border: 2px solid yellow;
+}
